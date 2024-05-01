@@ -266,7 +266,7 @@ importers:
         version: 7.6.17
       '@storybook/preset-scss':
         specifier: 1.0.3
-        version: 1.0.3(css-loader@7.1.0)(sass-loader@14.1.1)(style-loader@4.0.0)
+        version: 1.0.3(css-loader@7.1.0)(sass-loader@14.2.1)(style-loader@4.0.0)
       '@storybook/react':
         specifier: 7.6.17
         version: 7.6.17(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.4)
@@ -310,8 +310,8 @@ importers:
         specifier: 1.74.1
         version: 1.74.1
       sass-loader:
-        specifier: 14.1.1
-        version: 14.1.1(sass@1.74.1)(webpack@5.91.0)
+        specifier: 14.2.1
+        version: 14.2.1(sass@1.74.1)(webpack@5.91.0)
       storybook:
         specifier: 7.6.17
         version: 7.6.17
@@ -5255,7 +5255,7 @@ packages:
       - webpack-plugin-serve
     dev: true
 
-  /@storybook/preset-scss@1.0.3(css-loader@7.1.0)(sass-loader@14.1.1)(style-loader@4.0.0):
+  /@storybook/preset-scss@1.0.3(css-loader@7.1.0)(sass-loader@14.2.1)(style-loader@4.0.0):
     resolution: {integrity: sha512-o9Iz6wxPeNENrQa2mKlsDKynBfqU2uWaRP80HeWp4TkGgf7/x3DVF2O7yi9N0x/PI1qzzTTpxlQ90D62XmpiTw==}
     peerDependencies:
       css-loader: '*'
@@ -5263,7 +5263,7 @@ packages:
       style-loader: '*'
     dependencies:
       css-loader: 7.1.0(webpack@5.91.0)
-      sass-loader: 14.1.1(sass@1.74.1)(webpack@5.91.0)
+      sass-loader: 14.2.1(sass@1.74.1)(webpack@5.91.0)
       style-loader: 4.0.0(webpack@5.91.0)
     dev: true
 
@@ -16266,8 +16266,8 @@ packages:
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  /sass-loader@14.1.1(sass@1.74.1)(webpack@5.91.0):
-    resolution: {integrity: sha512-QX8AasDg75monlybel38BZ49JP5Z+uSKfKwF2rO7S74BywaRmGQMUBw9dtkS+ekyM/QnP+NOrRYq8ABMZ9G8jw==}
+  /sass-loader@14.2.1(sass@1.74.1)(webpack@5.91.0):
+    resolution: {integrity: sha512-G0VcnMYU18a4N7VoNDegg2OuMjYtxnqzQWARVWCIVSZwJeiL9kg8QMsuIZOplsJgTzZLF6jGxI3AClj8I9nRdQ==}
     engines: {node: '>= 18.12.0'}
     peerDependencies:
       '@rspack/core': 0.x || 1.x

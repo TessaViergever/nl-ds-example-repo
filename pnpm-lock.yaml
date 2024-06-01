@@ -262,8 +262,8 @@ importers:
         specifier: 7.6.17
         version: 7.6.17(react@18.2.0)
       '@storybook/addon-viewport':
-        specifier: 7.6.17
-        version: 7.6.17
+        specifier: 8.1.5
+        version: 8.1.5
       '@storybook/preset-scss':
         specifier: 1.0.3
         version: 1.0.3(css-loader@7.1.0)(sass-loader@14.1.1)(style-loader@4.0.0)
@@ -4650,8 +4650,8 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/addon-viewport@7.6.17:
-    resolution: {integrity: sha512-sA0QCcf4QAMixWvn8uvRYPfkKCSl6JajJaAspoPqXSxHEpK7uwOlpg3kqFU5XJJPXD0X957M+ONgNvBzYqSpEw==}
+  /@storybook/addon-viewport@8.1.5:
+    resolution: {integrity: sha512-kHaYdaAiv7107GSi4TsS1wEDN4I7cdYWSaCBBSvJlvvYvULKFVMkhsDJlSioskICx6OchkIKY5LJgLZ72fxdVA==}
     dependencies:
       memoizerific: 1.11.3
     dev: true
